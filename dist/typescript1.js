@@ -1,8 +1,8 @@
 /*
-타입스크립트
-- 자바스크립트의 타입 모호성을 해결하기 위해서 개발된 전처리 언어
-- 타입스크립트에서 변수에 타입을 지정하려면 : 을 사용
-- 변수명: 타입
+    타입스크립트
+    - 자바스크립트의 타입 모호성을 해결하기 위해서 개발된 전처리 언어
+    - 타입스크립트에서 변수에 타입을 지정하려면 : 을 사용
+    - 변수명: 타입
 */
 // string
 let hello = 'hello';
@@ -16,7 +16,7 @@ let arr1 = ['홍길동', '강감찬', '이순신'];
 let arr2 = ['홍길동', '강감찬', '이순신'];
 // object
 let obj = {
-    name: "홍길동",
+    name: '홍길동',
     age: 20
 };
 // tuple
@@ -29,10 +29,7 @@ let tup = ['홍길동', 20];
 let at = 100;
 at = '백';
 at = [1, 2, 3];
-// null
-// null은 타입이기도 하고 값이기도 함
-let nul = null;
-// undefined
+// undifined
 // undefined는 타입이기도 하고 값이기도 함
 let und = undefined;
 // function에서의 타입
@@ -40,7 +37,6 @@ let und = undefined;
 function getStr(str) {
     return 'hi' + str;
 }
-;
 getStr('홍길동');
 // 함수 호출시에 파라미터 개수와 인자 개수가 동일해야 함
 // 반환값이 없으면 void를 명시해 줘야 함
