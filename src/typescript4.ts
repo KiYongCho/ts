@@ -15,7 +15,7 @@ interface I5 { name: string; };
 let i4: I4 = { name: '홍길동' };
 let i5: I5 = { name: '강감찬' };
 // i4, i5가 I4, I5 타입인 것이 중요하지 않음
-// 둘 다 name: string 이라는 것이 중요
+// 둘 다 name: string 구조라는 것이 중요
 i4 = i5;
 i5 = i4;
 interface I6 { name: number;  };
